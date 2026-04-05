@@ -1,6 +1,6 @@
 # crop-mpc-images
 
-Crop bleed edges from MPC (MakePlayingCards) card renders.
+Crop bleed edges from mpcfill (or similarly formatted) card renders.
 
 ## Install
 
