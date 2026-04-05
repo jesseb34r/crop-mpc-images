@@ -1,0 +1,13 @@
+[project]
+name = "crop-mpc-images"
+version = "0.1.0"
+description = "Crop bleed edges from MPC (MakePlayingCards) card renders"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10.0.0"]
+
+[project.scripts]
+crop-mpc-images = "crop_mpc_images:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
